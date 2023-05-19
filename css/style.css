@@ -1,0 +1,96 @@
+html,body {
+    font-size:62.5;
+    text-rendering: optimizeLegibility;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: darkcyan;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    font-size: 2rem;
+    
+    color:yellow;
+    background-color: #7418F0;
+    height: 11rem;
+   
+   padding-top: 1rem;
+    
+}
+
+nav > a{
+    justify-content: space-around;
+    margin-right: 0rem;
+}
+input{
+    margin-right: 0rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    padding-bottom: 0.5rem;
+    border-radius: 1rem;
+    border:solid;
+    
+}
+
+body{
+    background-color:black;
+    font-size: 2rem;
+    
+}
+
+img{
+    width: 10rem;
+    height: 8rem;
+
+    
+}
+
+.image{
+    width: 29rem;
+    height: 20rem;
+
+   
+}
+
+.image:hover{
+    -webkit-transform: scale(1.1);
+     transform: scale(1.1);
+
+}
+
+main{
+    margin: 1.5rem;
+    
+}
+/* inspired form gumroad website */
+.button {
+    --bg: #000;
+    --hover-bg: #ff90e8;
+    --hover-text: #000;
+    color: #fff;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+  }
+  
+  .button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem,-0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .button:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+  
